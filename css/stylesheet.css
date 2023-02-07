@@ -11,3 +11,37 @@ ul.list > li {
     border-bottom: 1px solid grey;
 }
 
+
+
+li a:link{
+    color:green;
+}
+
+li a:visited {
+    color: red;
+}
+
+li a:hover {
+    color: pink;
+}
+
+a + ul li first-child::first-letter {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+a[href^="https://bcit"] {
+    background-color: yellow;
+}
+
+img {
+    float: left;
+}
+
+.below {
+    clear: both;
+}
+
+p {
+    margin-left: 5px;
+}
